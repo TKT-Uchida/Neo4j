@@ -1,0 +1,1 @@
+curl -u neo4j:[password] -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"statements": [{"statement": "MATCH (n:Job) RETURN n.name, n.group, n.cycle", "parameters": {}}]}'  http://localhost:7474/db/data/transaction/commit
